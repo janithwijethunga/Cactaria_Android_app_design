@@ -2,6 +2,15 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="BunnyEar">
+        <State />
+      </entry>
+      <entry key="MainActivity">
+        <State />
+      </entry>
+      <entry key="Onboard_Screen1">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>
