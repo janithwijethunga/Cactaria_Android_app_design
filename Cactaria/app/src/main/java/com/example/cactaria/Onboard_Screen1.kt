@@ -1,6 +1,8 @@
 package com.example.cactaria
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,6 +20,11 @@ class Onboard_Screen1 : AppCompatActivity() {
             insets
 
 
+        }
+        val StartedButton1: Button = findViewById(R.id.bunnyear_ordernow_btn)
+        StartedButton1.setOnClickListener {
+            val intent = Intent(this, BunnyEar::class.java)
+            startActivity(intent)
         }
     }
 }
