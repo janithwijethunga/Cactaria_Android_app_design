@@ -31,4 +31,19 @@
     <string name="useraddress">123 Maple Street Springfield, Anytown State, 12345 United States</string>
     <string name="profile_back_btn">Back</string>
     <string name="profile_logout_btn">Log Out</string>
+    <string name="bunnyprice">Rs.750.00</string>
+    <string name="mooncactusname">Moon Cactus</string>
+    <string name="moonqty">1</string>
+    <string name="moonprice">Rs.500.00</string>
+    <string name="profile">Profile</string>
+    <string name="mooncactus_desc">The Moon Cactus, scientifically called\nGymnocalycium mihanovichii, is a colorful and compact cactus\nknown for its vibrant hues and lack of chlorophyll. It typically\nfeatures a bright, round top graft that sits atop a green base.\nEasy to care for and eye-catching, it\'s a popular choice for\nindoor gardens.</string>
+    <string name="ordernowname">Order Now</string>
+    <string name="carddetails">Card Details</string>
+    <string name="crdnumber">Your Card Number</string>
+    <string name="crdnum">**** **** **** ****</string>
+    <string name="expdate">Expiry Date</string>
+    <string name="crdmnth">Month</string>
+    <string name="crdyear">Year</string>
+    <string name="orderdetails">Order Details</string>
+    <string name="name1">"   Name"</string>
 </resources>

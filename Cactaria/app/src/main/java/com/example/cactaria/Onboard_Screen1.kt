@@ -1,8 +1,10 @@
 package com.example.cactaria
 
 import android.content.Intent
+import android.media.Image
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,10 +23,19 @@ class Onboard_Screen1 : AppCompatActivity() {
 
 
         }
-        val StartedButton1: Button = findViewById(R.id.bunnyear_ordernow_btn)
-        StartedButton1.setOnClickListener {
+        val startedButton1: ImageButton = findViewById(R.id.userpr)
+        startedButton1.setOnClickListener {
+            val intent = Intent(this, Profile::class.java)
+            startActivity(intent)
+        }
+
+        val startedButton3: Button = findViewById(R.id.bunnyear_ordernow_btn)
+        startedButton3.setOnClickListener {
             val intent = Intent(this, BunnyEar::class.java)
             startActivity(intent)
         }
+
+
+
     }
 }

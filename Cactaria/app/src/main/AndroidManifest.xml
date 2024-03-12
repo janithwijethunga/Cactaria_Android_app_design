@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Cactaria"
         tools:targetApi="31">
         <activity
+            android:name=".Booknow"
+            android:exported="false" />
+        <activity
+            android:name=".MoonCactus"
+            android:exported="false" />
+        <activity
             android:name=".Profile"
             android:exported="false" />
         <activity
