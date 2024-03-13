@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Onboard_Screen1">
+    tools:context=".Onboard_Screen1"
+    >
 
 
     <LinearLayout
@@ -14,7 +15,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="0dp"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,11 +36,11 @@
 
             <ImageButton
                 android:id="@+id/userpr"
-                android:layout_width="62dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="150dp"
+                android:layout_marginStart="140dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="50dp"
+                android:layout_marginEnd="10dp"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/user_round" />
 
@@ -98,7 +100,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="560dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="20dp"
 
             >
 
@@ -107,6 +110,47 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="50dp"
                 android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    app:cardBackgroundColor="@color/cactaria_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="12dp">
+
+                    <Button
+                        android:id="@+id/echeveria_ordernow_btn"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginTop="100dp"
+                        android:backgroundTint="@color/cactaria"
+                        android:text="@string/ordernow"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="150dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/echeveria_name"
+                        android:textSize="34sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img_echeveria"
+                        android:layout_width="141dp"
+                        android:layout_height="137dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/cactaria"
+                        app:srcCompat="@mipmap/echeveria_foreground" />
+
+                </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -131,6 +175,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="150dp"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
                         android:text="@string/moon_cactus_name"
                         android:textSize="34sp"
@@ -140,7 +185,53 @@
                         android:id="@+id/img_moon_cactus"
                         android:layout_width="138dp"
                         android:layout_height="145dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/cactaria"
                         app:srcCompat="@mipmap/moon_cactus_foreground" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    app:cardBackgroundColor="@color/cactaria_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="12dp">
+
+                    <Button
+                        android:id="@+id/echeveria_ordernow_btn"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginTop="100dp"
+                        android:backgroundTint="@color/cactaria"
+                        android:text="@string/ordernow"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="150dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/echeveria_name"
+                        android:textSize="34sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img_echeveria"
+                        android:layout_width="141dp"
+                        android:layout_height="137dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/cactaria"
+                        app:srcCompat="@mipmap/echeveria_foreground" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -148,6 +239,7 @@
                     android:layout_width="386dp"
                     android:layout_height="158dp"
                     android:layout_margin="12dp"
+                    android:background="@color/cactaria"
                     app:cardBackgroundColor="@color/cactaria_color"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="12dp">
@@ -167,6 +259,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="150dp"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
                         android:text="@string/bunnyear_name"
                         android:textSize="34sp"
@@ -176,6 +269,11 @@
                         android:id="@+id/img_bunny_ear"
                         android:layout_width="139dp"
                         android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/cactaria"
                         app:srcCompat="@mipmap/bunny_earr_foreground" />
 
                 </androidx.cardview.widget.CardView>
@@ -202,6 +300,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="150dp"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
                         android:text="@string/echeveria_name"
                         android:textSize="34sp"
@@ -211,51 +310,17 @@
                         android:id="@+id/img_echeveria"
                         android:layout_width="141dp"
                         android:layout_height="137dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/cactaria"
                         app:srcCompat="@mipmap/echeveria_foreground" />
 
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="386dp"
-                    android:layout_height="158dp"
-                    android:layout_margin="12dp"
-                    app:cardBackgroundColor="@color/cactaria_color"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="12dp">
-
-                    <Button
-                        android:id="@+id/Fasciated_ordernow_btn"
-                        android:layout_width="169dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="200dp"
-                        android:layout_marginTop="100dp"
-                        android:backgroundTint="@color/cactaria"
-                        android:text="@string/ordernow"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/Fasciated_haworthia"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="150dp"
-                        android:layout_marginTop="10dp"
-                        android:text="@string/Fasciated"
-                        android:textSize="34sp"
-                        android:textStyle="bold" />
-
-                    <ImageView
-                        android:id="@+id/imageView17"
-                        android:layout_width="132dp"
-                        android:layout_height="158dp"
-                        app:srcCompat="@mipmap/fasciated_foreground" />
-
-                </androidx.cardview.widget.CardView>
             </LinearLayout>
         </ScrollView>
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
 
     </LinearLayout>

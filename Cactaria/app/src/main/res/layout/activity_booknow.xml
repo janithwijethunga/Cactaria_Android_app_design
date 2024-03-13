@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Booknow">
+    tools:context=".Booknow"
+    android:background="@drawable/gradientbg">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,44 +25,59 @@
             android:textColor="@color/cactaria"
             android:textSize="48sp" />
 
-        <EditText
-            android:id="@+id/editTextText"
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="54dp"
+            android:layout_height="59dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="40dp"
             android:layout_marginRight="15dp"
-            android:background="@color/cactaria_color"
-            android:ems="10"
-            android:hint="@string/name"
-            android:inputType="text"
-            android:textSize="20sp" />
+            android:backgroundTint="@color/cactaria_color"
+            app:cardCornerRadius="20dp">
 
-        <EditText
-            android:id="@+id/editTextText"
-            android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginRight="15dp"
-            android:background="@color/cactaria_color"
-            android:ems="10"
-            android:hint="@string/phone"
-            android:inputType="text"
-            android:textSize="20sp" />
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="text" />
+        </androidx.cardview.widget.CardView>
 
-        <EditText
-            android:id="@+id/editTextText"
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="59dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="40dp"
             android:layout_marginRight="15dp"
-            android:background="@color/cactaria_color"
-            android:ems="10"
-            android:hint="@string/address"
-            android:inputType="text"
-            android:textSize="20sp" />
+            android:backgroundTint="@color/cactaria_color"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/phone"
+                android:inputType="text" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/cactaria_color"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:ems="10"
+                android:hint="@string/address"
+                android:inputType="text" />
+        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"

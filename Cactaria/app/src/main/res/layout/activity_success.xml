@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".success"
+    android:background="@drawable/gradientbg"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="287dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="295dp"
+        android:layout_height="75dp"
+        android:fontFamily="@font/anton"
+        android:text="Success"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cactaria_color"
+        android:text="Back"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="106dp"
+        android:layout_height="103dp"
+        app:srcCompat="@drawable/baseline_beenhere_24"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="309dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
